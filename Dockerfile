@@ -1,4 +1,4 @@
-FROM dottgonzo/alpinenode
+FROM dottgonzo/nodealpine
 RUN apk add docker git
 RUN git clone https://github.com/dottgonzo/dockerlogs.git
 RUN node dockerlogs/bin/exec
